@@ -1,0 +1,41 @@
+name: flutter_onboarding
+description: "A new Flutter project."
+
+publish_to: 'none' 
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.7.2
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # UI Packages
+  smooth_page_indicator: ^1.2.1
+
+  # Shared Preferences
+  shared_preferences: ^2.5.3
+
+  # Icons Packages
+  iconsax: ^0.0.8
+  cupertino_icons: ^1.0.8
+
+  # State Management Packages
+  equatable: ^2.0.7
+  flutter_bloc: ^9.1.0
+
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^5.0.0
+
+flutter:
+
+  uses-material-design: true
+
+  assets:
+    - assets/images/
